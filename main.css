@@ -76,3 +76,10 @@ main{
     background: var(--prim-color);
 }
 
+.container button:hover, .container button:focus {
+cursor:pointer;
+background-color:rgba(255,255,255,0.8);
+color: var(--prim-color);
+border: none;
+outline: none;
+}
